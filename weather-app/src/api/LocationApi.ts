@@ -32,7 +32,9 @@ const LocationApi = () => {
       }
     };
 
-    getLocation();
+    setTimeout(() => {
+      getLocation();
+    }, 5000);
   }, []);
 
   return location ?? null;

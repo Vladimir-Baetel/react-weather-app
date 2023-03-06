@@ -11,9 +11,7 @@ export interface Location {
 
 export interface Current {
   temp_c: number;
-  is_day: number;
   condition: Condition;
-  feelslike_c: number;
 }
 
 export interface Condition {
